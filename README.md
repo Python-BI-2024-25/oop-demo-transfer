@@ -26,9 +26,9 @@ P.S. для простой загрузки данных из csv в postges э�
 - Запуск окружения и установка библиотек:
 
 ```shell
-python -m venv venv
+python3.10 -m venv venv
 source venv/bin/activate
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 - Развернуть базу данных в докер-компоузе:
